@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #06150f;
+  color: #eafff4;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 28px;
+  background: #0b2e1f;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00ff9c;
+}
+.logo span { color: #aaff00; }
+
+.navbar nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #d6fff0;
+}
+
+.auth .btn {
+  margin-left: 8px;
+  padding: 7px 14px;
+  border-radius: 4px;
+}
+
+.login { border: 1px solid #00ff9c; }
+.daftar {
+  background: #00ff9c;
+  color: #003322;
+}
+
+.hero {
+  max-width: 520px;
+  margin: 20px auto;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0,255,156,.45);
+}
+
+.hero img {
+  width: 100%;
+  display: block;
+}
+
+.claim {
+  text-align: center;
+  padding: 30px 20px;
+  background: #0b2e1f;
+}
+
+.claim h2 { color: #aaff00; }
+.claim p { margin: 6px 0; }
+
+.wa-btn {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 13px 28px;
+  background: #00ff9c;
+  color: #003322;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.jackpot {
+  text-align: center;
+  padding: 40px 20px;
+  background: #06291c;
+}
+
+.jackpot h1 {
+  font-size: 36px;
+  color: #00ff9c;
+}
+
+.games {
+  padding: 40px 20px;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px,1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.game-card {
+  background: linear-gradient(135deg,#0f5132,#0a3a26);
+  padding: 26px 10px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+  padding: 16px;
+  background: #03150e;
+  font-size: 13px;
+}
